@@ -28,18 +28,22 @@ p{
 *******************************************/
 .wrapper{
     width: 90%;
-    height: 50%;
     margin: 0 auto;
     background-color: grey;
 }
 .masthead{
     padding: 2%;
+    text-align: center;
 }
 .main{
     padding: 2%;
 }
 .foot{
     padding: 2%;
+}
+.main >h2 ,
+.main >p{
+    padding-left: 2%;
 }
 
 /*******************************************

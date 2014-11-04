@@ -10,7 +10,8 @@ to get your font sizes
 	margin: 0;
 }
 html,body{
-
+    margin: 3% 0;
+    background-color: yellow;
 }
 h1{
 
@@ -26,23 +27,27 @@ p{
 				Layout
 *******************************************/
 .wrapper{
-
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    background-color: grey;
 }
 .masthead{
-
+    padding: 2%;
 }
 .main{
-
+    padding: 2%;
 }
 .foot{
-
+    padding: 2%;
 }
 
 /*******************************************
 				Form Styles
 *******************************************/
-.formBox{
-
+.formBox,
+.col{
+    margin: 1.0rem 0;
 }
 .buttons{
 
@@ -65,3 +70,11 @@ input[type=reset]{
 				Image Styles
 *******************************************/
 
+
+
+/*******************************************
+            Form
+*******************************************/
+#travelForm{
+    padding: 2%;
+}

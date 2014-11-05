@@ -61,7 +61,8 @@ label{
 }
 input[type=text],
 input[type=number],
-input[type=date]{
+input[type=date],
+input[type=range]{
     width: 80%;
 }
 input[type=submit],
@@ -91,10 +92,37 @@ input[type=reset]{
 
     label{
         display: inline;
+        width: 20%;
+        float: left;
+        text-align: right;
+        margin-right: 4%;
+    }
+
+    input[type=text],
+    input[type=number],
+    input[type=date],
+    input[type=range]{
+        width: 60%
     }
 }
 
 @media screen and (min-width:780px){
+    .formBox{
+        float: left;
+        width: 25%;
+    }
 
+    label{
+        display: block;
+        float: left;
+        width:100%;
+        text-align: left;
+        margin-right: 0%;
+    }
+
+    .col{
+        width:25%;
+        display:inline-block;
+    }
 
 }

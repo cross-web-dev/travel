@@ -57,12 +57,12 @@ p{
 
 }
 label{
-
+    display:block;
 }
 input[type=text],
 input[type=number],
 input[type=date]{
-
+    width: 80%;
 }
 input[type=submit],
 input[type=reset]{
@@ -81,4 +81,20 @@ input[type=reset]{
 *******************************************/
 #travelForm{
     padding: 2%;
+}
+
+
+/*******************************************
+            Responsive Parameters
+*******************************************/
+@media screen and (min-width:500px){
+
+    label{
+        display: inline;
+    }
+}
+
+@media screen and (min-width:780px){
+
+
 }

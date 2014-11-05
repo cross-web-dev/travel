@@ -13,14 +13,10 @@ html,body{
     margin: 3% 0;
     background-color: yellow;
 }
-h1{
-
-}
-h2{
-
-}
+h1,
+h2,
 p{
-
+    font-family: arial;
 }
 
 /*******************************************
@@ -58,6 +54,7 @@ p{
 }
 label{
     display:block;
+    font-family: arial;
 }
 input[type=text],
 input[type=number],
@@ -67,7 +64,9 @@ input[type=range]{
 }
 input[type=submit],
 input[type=reset]{
-
+    width: 80%;
+    margin-bottom: 1.0rem;
+    margin-left: 5%;
 }
 
 
@@ -104,6 +103,12 @@ input[type=reset]{
     input[type=range]{
         width: 60%
     }
+
+    input[type=submit],
+    input[type=reset]{
+        width: 60%;
+        margin-left: 27%;
+    }
 }
 
 @media screen and (min-width:780px){
@@ -114,7 +119,6 @@ input[type=reset]{
 
     label{
         display: block;
-        float: left;
         width:100%;
         text-align: left;
         margin-right: 0%;

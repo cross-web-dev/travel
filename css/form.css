@@ -77,7 +77,9 @@ input[type=reset]{
 /*******************************************
 				Image Styles
 *******************************************/
-
+svg{
+    fill: #FFF71A;
+}
 
 
 /*******************************************
@@ -101,6 +103,10 @@ input[type=reset]{
     .col{
         float: left;
         width: 50%;
+    }
+
+    svg{
+        fill: #46D9FF;
     }
 }
 
@@ -126,6 +132,10 @@ input[type=reset]{
     .col.buttons{
         width: 100%;
         display: block;
+    }
+
+    svg{
+        fill: #FF8216;
     }
 
 }

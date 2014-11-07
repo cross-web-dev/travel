@@ -57,6 +57,13 @@ p{
 .buttons{
 
 }
+
+/* for the buttons reset their position to start in a new line.*/
+.col.buttons{
+    width: 100%;
+    display: block;
+}
+
 label{
     display:block;
     font-family: arial;
@@ -69,8 +76,16 @@ input[type=range]{
 }
 input[type=submit],
 input[type=reset]{
-    width: 38%;
-    margin: 3.0rem 0 1.0rem 5%;
+    width: 50%;
+    max-width: 150px;
+/*    margin: 5.0rem 0 1.0rem 0;*/
+    display: block;
+    margin-top: 10%;
+}
+
+input[type=submit]{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 output[name=resultPrice]{
@@ -114,7 +129,6 @@ svg{
 
 @media screen and (min-width:780px){
     .formBox{
-        float: left;
         width: 25%;
     }
 
@@ -128,12 +142,6 @@ svg{
     .col{
         width:25%;
         display:inline-block;
-    }
-
-    /* for the buttons reset their position to start in a new line.*/
-    .col.buttons{
-        width: 100%;
-        display: block;
     }
 
     svg{

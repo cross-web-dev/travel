@@ -73,7 +73,9 @@ input[type=reset]{
     margin: 3.0rem 0 1.0rem 5%;
 }
 
-
+output[name=resultPrice]{
+    display: block;
+}
 /*******************************************
 				Image Styles
 *******************************************/

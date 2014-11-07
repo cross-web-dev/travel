@@ -42,6 +42,10 @@ p{
     padding-left: 2%;
 }
 
+.foot{
+    clear: both;
+}
+
 /*******************************************
 				Form Styles
 *******************************************/
@@ -64,9 +68,8 @@ input[type=range]{
 }
 input[type=submit],
 input[type=reset]{
-    width: 80%;
-    margin-bottom: 1.0rem;
-    margin-left: 5%;
+    width: 38%;
+    margin: 3.0rem 0 1.0rem 5%;
 }
 
 
@@ -89,25 +92,14 @@ input[type=reset]{
 *******************************************/
 @media screen and (min-width:500px){
 
-    label{
-        display: inline;
-        width: 20%;
+    .formBox{
         float: left;
-        text-align: right;
-        margin-right: 4%;
+        width: 50%;
     }
 
-    input[type=text],
-    input[type=number],
-    input[type=date],
-    input[type=range]{
-        width: 60%
-    }
-
-    input[type=submit],
-    input[type=reset]{
-        width: 60%;
-        margin-left: 27%;
+    .col{
+        float: left;
+        width: 50%;
     }
 }
 
@@ -127,6 +119,12 @@ input[type=reset]{
     .col{
         width:25%;
         display:inline-block;
+    }
+
+    /* for the buttons reset their position to start in a new line.*/
+    .col.buttons{
+        width: 100%;
+        display: block;
     }
 
 }
